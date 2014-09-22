@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Input Data</title>
 </head>
-<body>
+<body style="background:blue">
 	<form method="POST" action="<?php echo base_url()."index.php/crud/do_insert"; ?>">
 		<table>
 			<tr>
