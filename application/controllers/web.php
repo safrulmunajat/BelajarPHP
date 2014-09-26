@@ -43,4 +43,8 @@ class Web extends CI_Controller {
 	public function footer() {
 		return $this->load->view("footer",array(),true);
 	}
+
+	public function dsfdsfdsf() {
+		
+	}
 }
