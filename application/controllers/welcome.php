@@ -2,6 +2,7 @@
 
 class Welcome extends CI_Controller {
 
+<<<<<<< HEAD
 	/**
 	 * Index Page for this controller.
 	 *
@@ -25,3 +26,10 @@ class Welcome extends CI_Controller {
 
 /* End of file welcome.php */
 /* Location: ./application/controllers/welcome.php */
+=======
+	public function index() {
+		$data = $this->mymodel->GetMahasiswa();
+		$this->load->view('tabel', array('data'=>$data));
+	}
+}
+>>>>>>> a64f4d8807bb5db527ee50f6bfa61080c090c595
