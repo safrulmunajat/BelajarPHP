@@ -1,7 +1,6 @@
 <?php
 class Mymodel extends CI_Model {
 
-<<<<<<< HEAD
 	public function GetCategori($where="") {
 		$data = $this->db->query('select * from kategori '.$where);
 		return $data;
@@ -12,7 +11,6 @@ class Mymodel extends CI_Model {
 		return $data;
 	}
 
-=======
 	public function GetMahasiswa() {
 		$data = $this->db->query('select * from mahasiswa');
 		return $data->result_array();
@@ -22,5 +20,4 @@ class Mymodel extends CI_Model {
 		$res = $this->db->insert($tabelName,$data);
 		return ($res);
 		}
->>>>>>> a64f4d8807bb5db527ee50f6bfa61080c090c595
 }
